@@ -1,9 +1,29 @@
 aid: doctronic
 name: Doctronic
-description: Doctronic is a company surfaced as a portfolio company of lightspeed-venture-partners, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Doctronic is a consumer telemedicine platform that pairs an AI doctor with
+  licensed physicians for anonymous, low-cost health care. Users describe their
+  symptoms to an AI assistant that performs a free symptom assessment and health
+  consultation, then can escalate to a real doctor for a video visit ($39/visit),
+  prescription refills, lab orders, and follow-up care. Positioned as "Free.
+  Anonymous. Built by doctors," the product is direct-to-consumer web and mobile
+  rather than a developer platform: it publishes no public API, SDK, or developer
+  documentation. The only public machine-readable surface is an RFC 9116
+  security.txt with a coordinated vulnerability-disclosure policy. Backed by
+  Lightspeed Venture Partners and Union Square Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/doctronic/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.doctronic.ai/opengraph-image
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Health
+- Telemedicine
+- Telehealth
+- Artificial Intelligence
+- Healthcare
+- Digital Health
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.doctronic.ai
+- type: Blog
+  url: https://www.doctronic.ai/blog/
+- type: HelpCenter
+  url: https://www.doctronic.ai/resource-center/
+- type: PrivacyPolicy
+  url: https://www.doctronic.ai/privacy-policy/
+- type: TermsOfService
+  url: https://www.doctronic.ai/terms-of-service/
+- type: SecurityTxt
+  url: well-known/doctronic-security.txt
+- type: WellKnown
+  url: well-known/doctronic-well-known.yml
+- type: Security
+  url: https://www.doctronic.ai/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/doctronic-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/doctronic-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

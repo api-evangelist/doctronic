@@ -1,0 +1,20 @@
+Contact: mailto:security@doctronic.ai
+Expires: 2026-12-31T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.doctronic.ai/.well-known/security.txt
+
+# Disclosure Policy
+We aim to acknowledge reports within 48 hours and provide updates every 7 days. Please allow 90 days before public disclosure.
+
+# Scope
+In scope: www.doctronic.ai, cms.doctronic.ai, api.doctronic.ai
+Out of scope: Social engineering, physical attacks, third-party services
+
+# Safe Harbor
+We will not pursue legal action against researchers who:
+- Make good faith efforts to comply with this policy
+- Do not access, modify, or exfiltrate patient data
+- Do not perform testing that degrades services
+
+# Acknowledgments
+We privately thank researchers and may provide tokens of appreciation for valid reports. Public acknowledgment available upon request after issue resolution.

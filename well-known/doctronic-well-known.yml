@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://www.doctronic.ai/.well-known/*
+host: https://www.doctronic.ai
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: doctronic-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Only security.txt (RFC 9116) is published. The security.txt lists an internal
+  API host api.doctronic.ai, which is not publicly reachable (no public developer
+  API surface). No OIDC/OAuth discovery, API catalog, or ai-plugin manifest.

@@ -1,0 +1,27 @@
+# Front Door AI Index — doctronic — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: doctronic
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.doctronic.ai
+  final_host: www.doctronic.ai
+  ownership: own
+  owner: doctronic
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 23.08
+  words: 650
+  tiers:
+    agentic: 0
+    core: 15
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 13
+    artificial intelligence: 2
+    intelligence: 2
